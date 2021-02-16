@@ -13,6 +13,7 @@
    }
     body{
         background-color: #D8DA3D;
+        color: #80007E;
     }
     ul li{
         background-color: white;
@@ -23,28 +24,47 @@
         color: #80007E;
         width: 200px;
     }
+
     hr{
         border:none;
         border-top:1px dashed #0000FF;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
     .left_box { 
-        margin-top: 20px;
+        margin-top: 25px;
         float:left;  
         width:auto; 
     } 
-   
+   /* For 3 lorem lines in middle */
+
     .right_box{ 
-        margin-top: 15px;
+        margin-left: 20px;
         float:left;  
-        width:80%;  
+        width:80%; 
+        font-size: 1.35em;
+        font-family: serif;
+        line-height: 45px; 
     } 
 
     h1{
-        color:#80007E;
+        font-size: 40px;
+        font-family: sans-serif;
+        margin-top: 15px;
+        margin-left: 290px;
     }
     p{
         color: #80007E;
     }
+    
+    #bottom{
+        font-size: 1.2em;
+        font-family: Georgia, serif;
+        font-style: italic;
+        margin-left: 290px;
+
+    }
+
 </style>  
 </head>  
 
@@ -59,23 +79,20 @@
     
           </ul>
     </div>  
-      
+    
+    <h1>My first styled page</h1>
     <div class = "right_box"> 
-        <h1>My first styled page</h1>
-        <br>
-        <p>Welcome to my styled page!</p>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....</p>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <br><br>
+        <p>Welcome to my styled page!
+        <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua....
+        <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <hr>
-        <br>
-        <p style="font-style: italic;">Made 25January 2018
-            <br>
-            by myself.
-        </p>
+        
     </div> 
+    <div id="bottom">
+        <p>Made 25 January 2018 <br/>by myself.</p>
+    </div>
+    
 </div> 
+
 </body>  
 </html>         
